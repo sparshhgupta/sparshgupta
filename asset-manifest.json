@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e28d61a.css",
-    "main.js": "/static/js/main.9d293781.js",
-    "static/js/453.d4e0fcc4.chunk.js": "/static/js/453.d4e0fcc4.chunk.js",
-    "static/media/dps_logo.jpg": "/static/media/dps_logo.d381d38b1302c923baca.jpg",
-    "static/media/bits_logo.png": "/static/media/bits_logo.8a39832180e1f57f0149.png",
-    "static/media/jio_logo.png": "/static/media/jio_logo.a3278329bdcf324dae60.png",
-    "static/media/oracle_logo.png": "/static/media/oracle_logo.2a715efe8098f989d7c3.png",
-    "index.html": "/index.html",
-    "main.5e28d61a.css.map": "/static/css/main.5e28d61a.css.map",
-    "main.9d293781.js.map": "/static/js/main.9d293781.js.map",
-    "453.d4e0fcc4.chunk.js.map": "/static/js/453.d4e0fcc4.chunk.js.map"
+    "main.css": "/sparshgupta/static/css/main.5e28d61a.css",
+    "main.js": "/sparshgupta/static/js/main.892b989b.js",
+    "static/js/453.d4e0fcc4.chunk.js": "/sparshgupta/static/js/453.d4e0fcc4.chunk.js",
+    "static/media/dps_logo.jpg": "/sparshgupta/static/media/dps_logo.d381d38b1302c923baca.jpg",
+    "static/media/bits_logo.png": "/sparshgupta/static/media/bits_logo.8a39832180e1f57f0149.png",
+    "static/media/jio_logo.png": "/sparshgupta/static/media/jio_logo.a3278329bdcf324dae60.png",
+    "static/media/oracle_logo.png": "/sparshgupta/static/media/oracle_logo.2a715efe8098f989d7c3.png",
+    "index.html": "/sparshgupta/index.html",
+    "main.5e28d61a.css.map": "/sparshgupta/static/css/main.5e28d61a.css.map",
+    "main.892b989b.js.map": "/sparshgupta/static/js/main.892b989b.js.map",
+    "453.d4e0fcc4.chunk.js.map": "/sparshgupta/static/js/453.d4e0fcc4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e28d61a.css",
-    "static/js/main.9d293781.js"
+    "static/js/main.892b989b.js"
   ]
 }
