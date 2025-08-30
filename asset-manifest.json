@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sparshgupta/static/css/main.5e28d61a.css",
-    "main.js": "/sparshgupta/static/js/main.56639537.js",
+    "main.js": "/sparshgupta/static/js/main.1bd124e2.js",
     "static/js/453.d4e0fcc4.chunk.js": "/sparshgupta/static/js/453.d4e0fcc4.chunk.js",
     "static/media/culture_img.jpg": "/sparshgupta/static/media/culture_img.1c39d36db057e3068cdd.jpg",
     "static/media/dps_logo.jpg": "/sparshgupta/static/media/dps_logo.d381d38b1302c923baca.jpg",
@@ -13,11 +13,11 @@
     "static/media/oracle_logo.png": "/sparshgupta/static/media/oracle_logo.2a715efe8098f989d7c3.png",
     "index.html": "/sparshgupta/index.html",
     "main.5e28d61a.css.map": "/sparshgupta/static/css/main.5e28d61a.css.map",
-    "main.56639537.js.map": "/sparshgupta/static/js/main.56639537.js.map",
+    "main.1bd124e2.js.map": "/sparshgupta/static/js/main.1bd124e2.js.map",
     "453.d4e0fcc4.chunk.js.map": "/sparshgupta/static/js/453.d4e0fcc4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e28d61a.css",
-    "static/js/main.56639537.js"
+    "static/js/main.1bd124e2.js"
   ]
 }
