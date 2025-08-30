@@ -10,8 +10,8 @@ const ProjectsPage = () => {
 
   const categories = [
     { id: 'all', name: 'All Projects' },
-    { id: 'backend', name: 'Backend' },
-    { id: 'databases', name: 'Databases' },
+    { id: 'development', name: 'Development' },
+    // { id: 'databases', name: 'Databases' },
     { id: 'core_concepts', name: 'Core Concepts' },
     { id: 'machine_learning', name: 'Machine Learning' },
     { id: 'deep_learning', name: 'Deep Learning' },

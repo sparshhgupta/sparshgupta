@@ -111,7 +111,7 @@ const projects = [
     description: "A tool to mitigate ID switching in multi-object tracking and enable efficient annotation correction.",
     link: "https://github.com/sparshhgupta/trackvision",
     demolink: "https://drive.google.com/file/d/1j-HF7OqrGw4AneI7_YIckSGa-32I8LKH/view?usp=drive_link",
-    categories: ["backend","computer_vision", "multi_object_tracking"],
+    categories: ["development","computer_vision", "multi_object_tracking"],
     gradient: "from-green-500 to-blue-500",
     icon: "🎥",
     tags: ["Full Stack Development","OpenCV", "Video Processing", "Computer Vision"],
@@ -183,7 +183,7 @@ const projects = [
     link: "https://github.com/sparshhgupta/course-reg-bot",
     demolink: "http://reg-bot.s3-website-us-east-1.amazonaws.com/",
     doclink: "https://drive.google.com/file/d/1LdxXQdJKhst5bMbIKnqGPvvoC5GwURQV/view?usp=sharing",
-    categories: ["backend","cloud_computing", "chatbots"],
+    categories: ["development","cloud_computing", "chatbots"],
     gradient: "from-blue-500 to-teal-500",
     icon: "💬",
     tags: ["AWS Lex", "Lambda", "DynamoDB"],
@@ -345,7 +345,35 @@ const projects = [
         { title: "Banking", description: "Automates loan application assessments." },
         { title: "Fintech", description: "Enhances digital lending platforms with risk scoring." }
       ]
-    }
+    },
+    {
+      id: 10,
+      title: "Breaking the Fourth Wall",
+      description: "Yes, you’re looking at the project… that’s showing you this project.",
+      link: "https://github.com/sparshhgupta/sparshgupta",
+      demolink: "https://sparshhgupta.github.io/sparshgupta/",
+      categories: ["development", "personal_branding", "meta"],
+      gradient: "from-amber-500 to-orange-600",
+      icon: "👀",
+      tags: ["React", "JavaScript", "TailwindCSS", "GitHub Pages", "Meta"],
+      skills: ["Frontend Development", "UI/UX Design", "Deployment", "Personal Branding"],
+      fullDescription: "This is the meta project — my portfolio website itself. Built with React + TailwindCSS and deployed on GitHub Pages, it’s designed to be clean, fast, and recruiter-friendly.\n\n"
+          + "It acts as a central hub for everything I do: projects, achievements, collaborations, and contact links. \n\n"
+          + "The fun twist? This portfolio couldn’t resist adding itself to the list. Recursive much?",
+      features: [
+          "Responsive design with TailwindCSS",
+          "Showcases projects, skills, and achievements",
+          "Deployed seamlessly on GitHub Pages",
+          "Minimal, recruiter-friendly UI/UX",
+          "Self-referential entry — portfolio within a portfolio"
+      ],
+      useCases: [
+          { title: "Recruiters", description: "Browse projects, achievements, and skills without touching my resume." },
+          { title: "Collaborators", description: "Check my past work before pinging me for the next big idea." },
+          // { title: "Me", description: "Flex on myself by adding my portfolio to my portfolio 🤯." }
+      ]
+  }
+
 ];
 
   export default projects;
