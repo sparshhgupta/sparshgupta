@@ -105,8 +105,31 @@
 //     }
 //   ];
 const projects = [
-  {
+   {
     id: 1,
+    title: "TrackVision: Annotation Correction and ID Switch Mitigation Tool",
+    description: "A tool to mitigate ID switching in multi-object tracking and enable efficient annotation correction.",
+    link: "https://github.com/sparshhgupta/trackvision",
+    demolink: "https://drive.google.com/file/d/1j-HF7OqrGw4AneI7_YIckSGa-32I8LKH/view?usp=drive_link",
+    categories: ["backend","computer_vision", "multi_object_tracking"],
+    gradient: "from-green-500 to-blue-500",
+    icon: "🎥",
+    tags: ["Full Stack Development","OpenCV", "Video Processing", "Computer Vision"],
+    skills: ["Backend Development","OpenCV","Computer Vision", "Python", "Video Processing"],
+    fullDescription: "Developed a tool to address ID switching in multi-object tracking algorithms. Integrated temporal analysis, video processing, and annotation correction for better tracking reliability.",
+    features: [
+      "Temporal analysis to predict and mitigate ID switches",
+      "Interactive features for correcting, merging, and splitting track annotations",
+      "Seamless integration with multi-object tracking outputs"
+    ],
+    useCases: [
+      { title: "Surveillance", description: "Ensures reliable multi-object tracking in CCTV footage." },
+      { title: "Sports Analytics", description: "Improves tracking of players and ball movement." },
+      { title: "Wildlife Tracking", description: "Reduces errors in animal movement tracking." }
+    ]
+  },
+  {
+    id: 2,
     title: "Resource-Efficient English-Hindi Neural Machine Translation",
     description: "An English-to-Hindi translation model fine-tuned on MarianMT with optimized preprocessing and training pipelines.",
     categories: ["deep_learning", "nlp"],
@@ -131,72 +154,7 @@ const projects = [
     ]
   },
   {
-    id: 2,
-    title: "TrackVision: Annotation Correction and ID Switch Mitigation Tool",
-    description: "A tool to mitigate ID switching in multi-object tracking and enable efficient annotation correction.",
-    link: "https://github.com/sparshhgupta/trackvision",
-    demolink: "https://drive.google.com/file/d/1j-HF7OqrGw4AneI7_YIckSGa-32I8LKH/view?usp=drive_link",
-    categories: ["backend","computer_vision", "multi_object_tracking"],
-    gradient: "from-green-500 to-blue-500",
-    icon: "🎥",
-    tags: ["Full Stack Development","OpenCV", "Video Processing", "Computer Vision"],
-    skills: ["Backend Development","OpenCV","Computer Vision", "Python", "Video Processing"],
-    fullDescription: "Developed a tool to address ID switching in multi-object tracking algorithms. Integrated temporal analysis, video processing, and annotation correction for better tracking reliability.",
-    features: [
-      "Temporal analysis to predict and mitigate ID switches",
-      "Interactive features for correcting, merging, and splitting track annotations",
-      "Seamless integration with multi-object tracking outputs"
-    ],
-    useCases: [
-      { title: "Surveillance", description: "Ensures reliable multi-object tracking in CCTV footage." },
-      { title: "Sports Analytics", description: "Improves tracking of players and ball movement." },
-      { title: "Wildlife Tracking", description: "Reduces errors in animal movement tracking." }
-    ]
-  },
-  {
     id: 3,
-    title: "Loan Approval Prediction",
-    description: "A predictive model to streamline loan approvals using advanced classification techniques.",
-    link: "https://github.com/sparshhgupta/loanapproval",
-    doclink: "https://drive.google.com/file/d/13RyqoJq1nLcnsdoO1PegrPpty1XXzi3Y/view?usp=drive_link",
-    categories: ["machine_learning", "data_mining"],
-    gradient: "from-yellow-500 to-orange-600",
-    icon: "🏦",
-    tags: ["Classification", "Data Mining"],
-    skills: ["Data Mining","Machine Learning","Python"],
-    fullDescription: "Developed a predictive model for home loan approvals to streamline financial decision-making processes.",
-    features: [
-      "Extensive data preprocessing and feature engineering",
-      "Explored Random Forest, XGBoost, and Decision Trees",
-      "Identified key factors influencing loan approvals"
-    ],
-    useCases: [
-      { title: "Banking", description: "Automates loan application assessments." },
-      { title: "Fintech", description: "Enhances digital lending platforms with risk scoring." }
-    ]
-  },
-  {
-    id: 4,
-    title: "Hemosphere: Blood Bank Management",
-    description: "A full-stack system for managing blood stocks, donors, and recipients with real-time updates.",
-    categories: ["backend","databases", "full_stack"],
-    gradient: "from-red-500 to-pink-600",
-    icon: "🩸",
-    tags: ["Node.js", "PostgreSQL", "Express"],
-    skills: ["PL/SQL","Database Management","Node.js", "Express", "PostgreSQL"],
-    fullDescription: "Developed a scalable blood bank management system to streamline operations and manage donors, recipients, and stock availability.",
-    features: [
-      "Backend built with Node.js and Express.js",
-      "PostgreSQL triggers for real-time updates",
-      "Dynamic equipment status based on budget and priority"
-    ],
-    useCases: [
-      { title: "Hospitals", description: "Optimizes blood stock availability and distribution." },
-      { title: "NGOs", description: "Facilitates donor-recipient coordination." }
-    ]
-  },
-  {
-    id: 5,
     title: "One Generator GAN for Multi-Attribute Facial Transformation",
     description: "A StarGAN-based model for multi-domain image translation with a single generator.",
     link: "https://drive.google.com/file/d/1ks03ZkIoCPPN14kzbbTs4f3tIQWQ7kCQ/view?usp=sharing",
@@ -219,7 +177,7 @@ const projects = [
     ]
   },
   {
-    id: 6,
+    id: 4,
     title: "RegBuddy: Student Registration Helper",
     description: "An AWS Lex-powered chatbot for course registration with natural language queries.",
     link: "https://github.com/sparshhgupta/course-reg-bot",
@@ -243,7 +201,7 @@ const projects = [
     ]
   },
   {
-    id: 7,
+    id: 5,
     title: "Interpretable Fault-Prone Module Detection",
     description: "A machine learning framework for predicting fault-prone software modules with explainability.",
     link: "https://colab.research.google.com/drive/146zzifkqzxuu0FSMFn1P5s_Ja34MoHoB",
@@ -265,7 +223,7 @@ const projects = [
     ]
   },
   {
-    id: 8,
+    id: 6,
     title: "Elevator Scheduling with Inter-Process Communication",
     link: "https://github.com/sparshhgupta/elevator-scheduling-algorithm",
     description: "A POSIX-compliant C project simulating elevator scheduling using shared memory, message queues, and synchronization mechanisms.",
@@ -292,7 +250,7 @@ const projects = [
     ]
     },
     {
-        id: 9,
+        id: 7,
         title: "Efficient Algorithms for Densest Subgraph Discovery",
         link: "https://zoddtheimmortal.github.io/daa-site/",
         description: "Implemented and reproduced research algorithms for solving the Densest Subgraph Discovery (DSD) problem using exact and approximation methods.",
@@ -318,7 +276,7 @@ const projects = [
         ]
     },
     {
-        id: 10,
+        id: 8,
         title: "Comparative Study of Maximal Clique Finding Algorithms",
         description: "Implemented and compared algorithms from three research papers addressing the NP-complete clique problem in graphs.",
         link: "https://zoddtheimmortal.github.io/daa-site-2/",
@@ -345,6 +303,48 @@ const projects = [
             { title: "Biological Networks", description: "Finds functional groups in protein-protein interaction networks." },
             { title: "Data Mining", description: "Supports clustering and correlation discovery in large-scale datasets." }
         ]
+    },
+    // {
+    //   id: 9,
+    //   title: "Hemosphere: Blood Bank Management",
+    //   description: "A full-stack system for managing blood stocks, donors, and recipients with real-time updates.",
+    //   categories: ["backend","databases", "full_stack"],
+    //   gradient: "from-red-500 to-pink-600",
+    //   icon: "🩸",
+    //   tags: ["Node.js", "PostgreSQL", "Express"],
+    //   skills: ["PL/SQL","Database Management","Node.js", "Express", "PostgreSQL"],
+    //   fullDescription: "Developed a scalable blood bank management system to streamline operations and manage donors, recipients, and stock availability.",
+    //   features: [
+    //     "Backend built with Node.js and Express.js",
+    //     "PostgreSQL triggers for real-time updates",
+    //     "Dynamic equipment status based on budget and priority"
+    //   ],
+    //   useCases: [
+    //     { title: "Hospitals", description: "Optimizes blood stock availability and distribution." },
+    //     { title: "NGOs", description: "Facilitates donor-recipient coordination." }
+    //   ]
+    // },
+    {
+      id: 9,
+      title: "Loan Approval Prediction",
+      description: "A predictive model to streamline loan approvals using advanced classification techniques.",
+      link: "https://github.com/sparshhgupta/loanapproval",
+      doclink: "https://drive.google.com/file/d/13RyqoJq1nLcnsdoO1PegrPpty1XXzi3Y/view?usp=drive_link",
+      categories: ["machine_learning", "data_mining"],
+      gradient: "from-yellow-500 to-orange-600",
+      icon: "🏦",
+      tags: ["Classification", "Data Mining"],
+      skills: ["Data Mining","Machine Learning","Python"],
+      fullDescription: "Developed a predictive model for home loan approvals to streamline financial decision-making processes.",
+      features: [
+        "Extensive data preprocessing and feature engineering",
+        "Explored Random Forest, XGBoost, and Decision Trees",
+        "Identified key factors influencing loan approvals"
+      ],
+      useCases: [
+        { title: "Banking", description: "Automates loan application assessments." },
+        { title: "Fintech", description: "Enhances digital lending platforms with risk scoring." }
+      ]
     }
 ];
 
