@@ -1,5 +1,10 @@
 import { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import img_kedarkantha from "./public/images/img_kedarkantha.jpeg";
+import culture_img from "./public/images/culture_img.jpg";
+import nss_logo from "./public/images/nss_logo.png";
+import bits_logo from "./public/images/bits_logo.png";
+import coffee from "./public/images/coffee.avif";
 
 const sectionData = {
   traveling: {
@@ -9,68 +14,59 @@ const sectionData = {
     tag: "Adventure",
     photos: [
       {
-        image: "/images/kedarkantha-trek.jpg",
-        title: "Kedarkantha Trek",
-        description: "An amazing winter trek in Uttarakhand. Reached the summit at 12,500 feet with breathtaking snow-covered peaks all around. The journey through pine forests and meadows was unforgettable."
+        image: img_kedarkantha,
+        title: "Mountains",
+        description: "Growing up in Uttarakhand, the mountains have always been a source of inspiration and peace for me. From the snow-capped peaks of Kedarkantha at 12,500 feet to the serene landscapes of Mussoorie, Dharamshala, McLeodganj, and the lush greenery of Araku Valley, each journey has deepened my love for nature and adventure. Trekking through pine forests, meadows, and mountain trails has taught me resilience and given me countless memories to cherish."
       },
       {
-        image: "/images/goa-beaches.jpg",
-        title: "Goa Beaches",
-        description: "Relaxing at the pristine beaches of Goa. Enjoyed the golden sunsets, local seafood, and vibrant nightlife. Perfect blend of relaxation and adventure with water sports."
-      },
-      {
-        image: "/images/rajasthan-forts.jpg",
-        title: "Rajasthan Forts",
-        description: "Explored the magnificent forts of Rajasthan including Amber Fort and Mehrangarh Fort. Rich history, stunning architecture, and vibrant local culture made this trip memorable."
+        image: culture_img,
+        title: "Exploring India",
+        description: "Along with my love for the mountains, I have a deep appreciation for India's rich cultural heritage. Exploring cities like Jaipur and Agra has given me the chance to witness the grandeur of forts, palaces, and monuments that reflect centuries of history and tradition. From the intricate architecture of Amber Fort to the timeless beauty of the Taj Mahal, these experiences have connected me to the cultural roots and diversity of our country."
       }
     ]
   },
   volunteering: {
-    title: "Volunteering",
-    icon: "❤️",
-    description: "Making a positive impact in the community",
-    tag: "Impact",
-    photos: [
-      {
-        image: "/images/blood-donation.jpg",
-        title: "Blood Donation Drive",
-        description: "Organized and participated in multiple blood donation camps. Helped save lives by coordinating with local hospitals and encouraging community participation."
-      },
-      {
-        image: "/images/teaching-kids.jpg",
-        title: "Teaching Underprivileged Kids",
-        description: "Volunteered at local NGOs to teach basic computer skills and mathematics to underprivileged children. Seeing their enthusiasm to learn was truly rewarding."
-      },
-      {
-        image: "/images/environmental-cleanup.jpg",
-        title: "Environmental Cleanup",
-        description: "Participated in beach and park cleanup drives. Collected plastic waste and planted saplings to contribute towards environmental conservation."
-      }
-    ]
-  },
-  sports: {
-    title: "Sports",
-    icon: "🏃‍♂️",
-    description: "Staying active and competitive through various sports",
-    tag: "Fitness",
-    photos: [
-      {
-        image: "/images/chess-tournament.jpg",
-        title: "Chess Tournaments",
-        description: "Regular participant in local and online chess tournaments. Love the strategic thinking and mental challenges that chess provides. Currently rated 1650 on Chess.com."
-      },
-      {
-        image: "/images/badminton-court.jpg",
-        title: "Badminton",
-        description: "Play badminton regularly at the local sports club. Great cardio workout and helps maintain agility. Participate in weekend doubles tournaments with friends."
-      },
-      {
-        image: "/images/cricket-match.jpg",
-        title: "Cricket",
-        description: "Weekend cricket matches with college friends. Playing as an all-rounder, I enjoy both batting and bowling. Nothing beats the team spirit and excitement of the game."
-      }
-    ]
-  },
+  title: "Volunteering",
+  icon: "❤️",
+  description: "Making a positive impact in the community",
+  tag: "Impact",
+  photos: [
+    {
+      image: nss_logo,
+      title: "National Service Scheme (NSS)",
+      description: "Actively participated in NSS activities during college, contributing to community service initiatives such as awareness drives, social campaigns, and volunteering for social causes."
+    },
+    {
+      image: bits_logo,
+      title: "Placement Cell Associate",
+      description: "Served as an associate in the college placement cell, helping coordinate student placements, managing communication with recruiters, and ensuring smooth organization of campus recruitment drives."
+    }
+  ]
+},
+
+  // sports: {
+  //   title: "Sports",
+  //   icon: "🏃‍♂️",
+  //   description: "Staying active and competitive through various sports",
+  //   tag: "Fitness",
+  //   photos: [
+  //     {
+  //       image: "/images/chess-tournament.jpg",
+  //       title: "Chess Tournaments",
+  //       description: "Regular participant in local and online chess tournaments. Love the strategic thinking and mental challenges that chess provides. Currently rated 1650 on Chess.com."
+  //     },
+  //     {
+  //       image: "/images/badminton-court.jpg",
+  //       title: "Badminton",
+  //       description: "Play badminton regularly at the local sports club. Great cardio workout and helps maintain agility. Participate in weekend doubles tournaments with friends."
+  //     },
+  //     {
+  //       image: "/images/cricket-match.jpg",
+  //       title: "Cricket",
+  //       description: "Weekend cricket matches with college friends. Playing as an all-rounder, I enjoy both batting and bowling. Nothing beats the team spirit and excitement of the game."
+  //     }
+  //   ]
+  // },
   social_life: {
     title: "Social Life",
     icon: "🎉",
@@ -78,7 +74,7 @@ const sectionData = {
     tag: "",
     photos: [
       {
-        image: "/images/404.jpg",
+        image: coffee,
         title: "Error 404",
         description: "Social Life Not Found"
       }

@@ -8,28 +8,37 @@ const AboutPage = ({ setCurrentPage }) => (
         
         <div className="prose prose-lg max-w-none">
           <p className="text-gray-700 mb-6">
-            I'm a passionate software developer with expertise in full-stack development, 
-            machine learning, and cloud computing. With over 5 years of experience, I've 
-            worked on projects ranging from distributed systems to AI applications.
+            I'm a passionate software engineer who loves solving real-world problems through technology. 
+            With expertise in full-stack development, cloud computing, and machine learning, I enjoy 
+            building impactful applications that combine clean code, scalability, and user-focused design. 
+            Over the course of my academic journey and professional internships, I've worked on projects 
+            ranging from intelligent AI systems to robust backend platforms and interactive web applications.
           </p>
-          
+
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Background</h2>
           <p className="text-gray-700 mb-6">
-            My journey started with a Computer Science degree, and I've since expanded 
-            my expertise through hands-on projects and continuous learning. I specialize 
-            in building scalable backend systems, designing efficient databases, and 
-            implementing machine learning solutions.
+            My journey began with a strong foundation in Computer Science, where I developed a curiosity 
+            for both software engineering and data-driven decision making. Since then, I've expanded my 
+            skill set through diverse projects in areas like natural language processing, software fault 
+            prediction, and scalable web systems. I thrive at the intersection of research and development— 
+            taking ideas from concept to working solutions while continuously learning new technologies.
           </p>
-          
+
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">What I Do</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-2 mb-6">
-            <li>Full-stack web development with modern frameworks</li>
-            <li>Backend API design and microservices architecture</li>
-            <li>Database design and optimization</li>
-            <li>Machine learning model development and deployment</li>
-            <li>Cloud infrastructure and DevOps practices</li>
-            <li>Open source contributions and technical writing</li>
+            <li>Design and develop full-stack web applications using modern frameworks</li>
+            <li>Architect and implement RESTful APIs and microservices</li>
+            {/* <li>Optimize databases for scalability and performance</li> */}
+            <li>Build, train, and deploy machine learning models for real-world tasks</li>
+            <li>Leverage cloud infrastructure (AWS, OCI) for deployment and DevOps</li>
+            <li>Collaborate in cross-functional teams using Agile methodologies</li>
+            <li>Develop and experiment with deep learning architectures for computer vision and NLP</li>
+            <li>Continuously learn and adapt to emerging technologies and best practices</li>
+
+            
+            {/* <li>Gain hands on experience through projects and share knowledge through technical writing</li> */}
           </ul>
+
           
           <div className="flex justify-center mt-8">
             <button

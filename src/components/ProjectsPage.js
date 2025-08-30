@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Github, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import projects from './data/projects_data';
 
 // Projects Page Component  
@@ -7,8 +7,6 @@ const ProjectsPage = () => {
   const [activeCategory, setActiveCategory] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
   const [activeTab, setActiveTab] = useState('description');
-
-
 
   const categories = [
     { id: 'all', name: 'All Projects' },
@@ -117,22 +115,40 @@ const ProjectsPage = () => {
                 <div>
                   <h3 className="text-xl font-bold mb-4">Project Links</h3>
                   <div className="space-y-4">
-                    <a href="#" className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-gray-50 transition-colors">
-                      <Github size={24} />
-                      <div>
-                        <p className="font-medium">GitHub Repository</p>
-                        <p className="text-gray-600">View source code</p>
-                      </div>
-                      <ExternalLink size={16} className="text-gray-400 ml-auto" />
-                    </a>
-                    <a href="#" className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-gray-50 transition-colors">
-                      <ExternalLink size={24} />
-                      <div>
-                        <p className="font-medium">Live Demo</p>
-                        <p className="text-gray-600">Try it out</p>
-                      </div>
-                      <ExternalLink size={16} className="text-gray-400 ml-auto" />
-                    </a>
+                    {/* General Project Link */}
+                    {project.link && (
+                      <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                        <ExternalLink size={24} />
+                        <div>
+                          <p className="font-medium">Project Link</p>
+                          <p className="text-gray-600">View project details</p>
+                        </div>
+                        <ExternalLink size={16} className="text-gray-400 ml-auto" />
+                      </a>
+                    )}
+                    
+                    {/* Demo Link - Only show if demolink exists and is not empty */}
+                    {project.demolink && project.demolink.trim() !== '' && (
+                      <a href={project.demolink} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                        <ExternalLink size={24} />
+                        <div>
+                          <p className="font-medium">Live Demo</p>
+                          <p className="text-gray-600">Try it out</p>
+                        </div>
+                        <ExternalLink size={16} className="text-gray-400 ml-auto" />
+                      </a>
+                    )}
+
+                    {project.doclink && project.doclink.trim() !== '' && (
+                      <a href={project.doclink} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                        <ExternalLink size={24} />
+                        <div>
+                          <p className="font-medium">Documentation</p>
+                          <p className="text-gray-600">Visit</p>
+                        </div>
+                        <ExternalLink size={16} className="text-gray-400 ml-auto" />
+                      </a>
+                    )}
                   </div>
                 </div>
               )}
